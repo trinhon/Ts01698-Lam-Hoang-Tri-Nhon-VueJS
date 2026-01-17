@@ -13,6 +13,10 @@
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
         Tài khoản
     </button>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bangModal">
+    Xem bảng 
+</button>
+
 </div>
 
 <!-- MODAL -->
@@ -131,6 +135,94 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="bangModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title text-danger">Bảng Thành Phần Dinh Dưỡng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <!-- ===== BẢNG CỦA BẠN ===== -->
+                <div class="container" id="bang">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+
+                            <div class="card border shadow-sm">
+                                <div class="card-body">
+
+                                    <table class="table table-bordered">
+                                        <thead class="table-warning text-center align-middle">
+                                            <tr>
+                                                <th rowspan="2">Thành Phần</th>
+                                                <th colspan="2">Giá Trị</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Khối Lượng</th>
+                                                <th>% DV*</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="align-middle">
+                                            <tr>
+                                                <td>Calories</td>
+                                                <td>200 kcal</td>
+                                                <td>20%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chất Béo</td>
+                                                <td>9 g</td>
+                                                <td>14%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chất Béo Bão Hòa</td>
+                                                <td>4 g</td>
+                                                <td>20%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chất Đạm</td>
+                                                <td>8 g</td>
+                                                <td>16%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chất Xơ</td>
+                                                <td>5 g</td>
+                                                <td>20%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Đường</td>
+                                                <td>12 g</td>
+                                                <td class="text-center">-</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2">Vitamin</td>
+                                                <td>Vitamin C</td>
+                                                <td>25%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Vitamin D</td>
+                                                <td>10%</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ===== END ===== -->
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
