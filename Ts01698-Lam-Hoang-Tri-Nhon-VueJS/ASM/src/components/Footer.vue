@@ -1,18 +1,5 @@
 <template>
-  <footer class="bg-dark text-light text-center py-3 mt-auto">
-    <div class="container">
-      <p class="mb-1">
-        © 2026 | Assignment
-      </p>
-      <small>
-        FPT Polytechnic 
-      </small>
-    </div>
+  <footer class="bg-dark text-light text-center py-3">
+    © 2026 Báo Giải Trí - nhonlamhoan134@gmail.com
   </footer>
 </template>
-
-<script>
-export default {
-  name: "Footer"
-}
-</script>
