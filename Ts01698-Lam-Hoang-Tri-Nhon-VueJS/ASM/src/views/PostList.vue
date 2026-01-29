@@ -10,7 +10,7 @@
     <div class="card mb-3">
       <div class="card-body">
         <h5>Tiêu đề bài viết</h5>
-        <p>Nội dung bài viết demo…</p>
+        <p>Nội dung bài viết …</p>
       </div>
     </div>
   </div>

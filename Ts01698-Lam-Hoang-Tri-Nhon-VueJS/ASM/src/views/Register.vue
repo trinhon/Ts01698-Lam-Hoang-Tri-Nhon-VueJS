@@ -4,10 +4,6 @@
       <div class="col-md-7">
 
         <div class="auth-wrapper d-flex shadow">
-
-          <!-- KHUNG CHỮ DỌC -->
-     
-
           <!-- FORM REGISTER -->
           <div class="auth-content flex-fill p-4">
             <h3 class="fw-bold text-center mb-4">Đăng ký</h3>
